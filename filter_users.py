@@ -79,7 +79,8 @@ def main():
     """
     filter_option = (
         input(
-            "What would you like to filter by? (Currently, only name, age and email is supported): "
+            "What would you like to filter by?"
+            "(Currently, only name, age and email is supported): "
         )
         .strip()
         .lower()
